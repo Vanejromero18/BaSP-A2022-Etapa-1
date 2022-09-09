@@ -108,6 +108,7 @@ a:hover{
 .information li:first-child{
     list-style-image: url(/Assets/mail.svg);
 }
+
 .information li:nth-child(2){
     list-style-image: url(/Assets/home.svg);
 }
@@ -118,17 +119,22 @@ a:hover{
 #div1 {
     border-bottom: solid 1px red;
     width: 95%;
-    padding-top: 25px
+    padding-top: 25px;
 }
 #credits {
     top: 0px;
     left: 300px;
+}
+#credits img{
+    float: left;
+    padding-right: 10px;
 }
 #networks ul {
     width:30;
     display: block;
     position: absolute;
     top: 5px; right: 50px;
+    padding-top: 25+px;
 }
 #a{
     display: inline-block; 
