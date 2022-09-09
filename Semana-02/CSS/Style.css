@@ -13,7 +13,7 @@ h2{
     font-size: 30px;
     font-weight: bold;
     margin-right: 30;
-    padding-top: 20px;
+    padding-top: 10px;
     text-decoration: underline;
     text-decoration-color: #f33413;
 }
@@ -64,7 +64,6 @@ a:hover{
 *.menu ul{
     padding-left: 0px;
     padding-top: 30px;
-    list-style: none;
     text-decoration: none;
 }
 .menu h3{
@@ -88,6 +87,7 @@ a:hover{
     margin-bottom: 10px;
     padding-bottom: 15px;
     border-bottom: solid 1px #373867;
+    margin-left: 20px;
 } 
 .menu li:first-child{
     border-bottom: solid 1px #373867;
@@ -104,6 +104,15 @@ a:hover{
     border-bottom: solid 1px #373867;
     padding-bottom: 60px;
     padding-top: 10px;
+}
+.information li:first-child{
+    list-style-image: url(/Assets/mail.svg);
+}
+.information li:nth-child(2){
+    list-style-image: url(/Assets/home.svg);
+}
+.information li:last-child{
+    list-style-image: url(/Assets/phone.svg);
 }
 /*Header*/
 #div1 {
@@ -233,7 +242,7 @@ span{
     border-bottom: solid 1px black;
     width: 95%;
 }
-/*Formularo*/
+/*Formulario*/
 form{
     font-family: Roboto, sans-serif; 
     color:  #373867;
@@ -346,19 +355,31 @@ button {
 #history{
     border-bottom: solid 1px black;
     width: 95%;
-    padding-top: 20px;
+    padding-top: 0px;
     margin: 0px;
 }
 #history, .img-1 {
     float: left;
     margin: 15px;
-    
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
-.img-2 {
+.img-2{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     float: right;
-    margin: 15px;
-    width: 30%;
+
 }
+#history h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#history p{
+    text-align: justify;
+}
+
 /*Services*/
 #services{
     border-bottom: solid 1px black;
@@ -378,7 +399,7 @@ ol{
     
 }
 #productos {
-    margin-left: 70px;
+    margin-left: 90px;
     width: 30%;
     display: inline-block;
 }
