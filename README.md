@@ -16,4 +16,7 @@ Every team member has to use some essential tools such as Git, Visual Studio Cod
 ## Week 02 - CSS
 This week, continuing with last week's work, we will include style in the HTML that we made. The week´s goal is to make the page display look identical to the Landing page that we can see on FIGMA´s screenflow. 
 ***
+## Week 03 - Flexbox
+This third week we start with a new topic: Flexbox. This time we will recreat the Landing for three different devices: Mobile, Tablet and Desktop, and for be able to do it we will use Flexbox, a CSS´s tool. This tool is great for making flexible designs that adapt to any device.
+***
 _By Vanessa Romero_ 
