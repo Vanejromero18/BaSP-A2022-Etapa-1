@@ -1,0 +1,174 @@
+main{
+	float: right;
+	width: 83%;
+	margin-left: 200px;
+}
+#why-productivity-booster{
+	width: 95%;
+	border-bottom: solid 1px black;
+}
+article{
+	display: inline-block;
+	width: 48%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+span{
+	float: left;
+	margin-right: 10px;
+}
+#trackgenix-features{
+	width: 95%;
+	margin-right: 50px;
+	padding-bottom: 40px;
+	border-bottom: solid 1px black;
+}
+.hours-log, .reports, .resource-management, .multiple-roles{
+	display: inline-block;
+	width: 40%;
+	padding: 10px;
+	margin-left: 50px;
+}
+#trackgenix-info{
+	width: 95%;
+	border-bottom: solid 1px black;
+}
+form{
+	font-family: Roboto, sans-serif;
+	color:  #373867;
+	font-size: 12px;
+	font-weight: bold;
+}
+input{
+	width: 350px;
+}
+label{
+	margin: 8px;
+	width: 350px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+label, input{
+	display: inline-block;
+	width: 50%;
+}
+form input, form textarea{
+	display: block;  
+	width: 60%;
+	padding-left: 15px;
+}
+.data-form{
+	float:left;
+	width: 50%;
+}
+.data-form, .contact-area{
+	display: inline-block;
+}
+.data-form-1, .data-form-2{
+	display: block;
+}
+.data-form-1{
+	margin-bottom: 5px;
+}
+.contact-area{
+	width: 40%;
+	float: left;
+}
+.options,.contact-title{
+	display:block;
+	width: 18%;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+.subtitle{
+	float: right;
+}
+.subtitle, .radio{
+	display: inline-block;
+	margin: 0.5px;
+}
+textarea{
+	width: 95%;
+	height: 150px;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 2px solid #ccc;
+	background-color: #f8f8f8;
+	resize: none;
+}
+button{
+	font-size: 15px;
+}
+#reset-button{
+	display: inline-block;
+	padding: 10px 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-decoration: none;
+	font-size: 15px;
+	background-color: #f33413;
+	border-radius: 8px;
+	border: solid 1px black;
+	color: black;
+}
+#send-button{
+	display: inline-block;
+	padding: 10px 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-decoration: none;
+	font-size: 15px;
+	background-color: #a6d098;
+	border-radius: 8px;
+	border: solid 1px black;
+	color: black;
+}
+#trackgenix-history{
+	width: 95%;
+	border-bottom: solid 1px black;
+}
+#trackgenix-history h3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#trackgenix-history, .the-foundation-image{
+	float: left;
+	margin: 15px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.something-else-image{
+	float: right;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#services{
+	display: block;
+	width: 95%;
+	border-bottom: solid 1px black;
+}
+#services h2{
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+ol{
+	margin-left: 30px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	list-style:decimal;
+}
+#productos{
+	display: inline-block;
+	width: 30%;
+	margin-left: 90px;
+}
+#negocios{
+	display: inline-block;
+	width: 30%;
+}
+#soporte{
+	display: inline-block;
+	width: 30%;
+}

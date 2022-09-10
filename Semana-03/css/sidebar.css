@@ -1,0 +1,59 @@
+aside{
+	width: 15%;
+	float: left;
+	position: fixed;
+	height: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-family: Roboto, sans-serif;
+	color: #373867;
+	font-size: 14;
+	background-color: #a6d098;
+}
+.menu h3{
+	padding-top: 20px;
+	font-size: 30px;
+	text-decoration: underline;
+	text-decoration-color: #f33413;
+}
+*.menu ul{
+	padding-top: 30px;
+	padding-left: 0px;
+	text-decoration: none;
+}
+.menu li{
+	border-bottom: solid 1px #373867;
+	padding-bottom: 30px;
+}
+.menu li:nth-child(2), .menu li:last-child{
+	padding-top: 20px;
+}
+.menu li:last-child{
+	padding-bottom: 60px;
+}
+.menu-information h3{
+	margin-bottom: 30px;
+	padding-top: 40px;
+	font-size: 30px;
+	text-decoration: underline;
+	text-decoration-color: #f33413;
+}
+.menu-information ul{
+	margin-top: 40px;
+	list-style: none;
+}
+.menu-information li{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	border-bottom: solid 1px #373867;
+}
+.menu-information li:first-child{
+	list-style-image: url(/assets/mail-contact-trackgenix.svg);
+}
+.menu-information li:nth-child(2){
+	list-style-image: url(/assets/adress-contact-trackgenix.svg);
+}
+.menu-information li:last-child{
+	list-style-image: url(/assets/phone-contact-trackgenix.svg);
+}

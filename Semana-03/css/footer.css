@@ -1,0 +1,14 @@
+footer{
+	width: 95%;
+	margin-left: 0px;
+}
+#trackgenix-networks-footer{
+	padding-left: 650px;
+	padding-top: 20px;
+}
+footer, #trackgenix-networks-footer, .trackgenix-networks-footer{
+	display: inline-block;
+}
+.copyright{
+	padding-left: 550px;
+}
